@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zampabollos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_play">Play</string>
+    <string name="tv_score">Score:</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_finish">FinishActivity</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="bt_hs">High Score</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="sw_sound">Sound:</string>
+    <string name="sw_effect">Effects:</string>
+    <string name="bt_sett">Settings</string>
+    <string name="gameover1">The food is not thrown to the ground!</string>
+    <string name="gameover2">A broccoli killed you!</string>
+    <string name="tv_yourscore">Your Score:</string>
+
+</resources>

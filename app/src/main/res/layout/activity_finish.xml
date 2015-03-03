@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fdgproject.firedge.zambabollos.FinishActivity"
+    android:id="@+id/ly_go"
+    android:background="@drawable/gameover1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover1"
+        android:id="@+id/tv_go"
+        android:textSize="28sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_yourscore"
+        android:id="@+id/textView"
+        android:layout_below="@+id/tv_go"
+        android:layout_alignLeft="@+id/tv_go"
+        android:layout_alignStart="@+id/tv_go"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/tv_goscr"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:textColor="#ffb2190b"
+        android:layout_marginLeft="20dp" />
+</RelativeLayout>

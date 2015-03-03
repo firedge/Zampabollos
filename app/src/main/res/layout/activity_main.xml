@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainmenu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_play"
+            android:id="@+id/bt_play"
+            android:background="@drawable/button"
+            android:layout_margin="10dp"
+            android:onClick="play"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="#ff900004" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_hs"
+            android:id="@+id/bt_hs"
+            android:background="@drawable/button"
+            android:layout_margin="10dp"
+            android:onClick="hs"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="#ff900004" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_sett"
+            android:id="@+id/bt_sett"
+            android:background="@drawable/button"
+            android:layout_margin="10dp"
+            android:onClick="setting"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="#ff900004" />
+    </LinearLayout>
+</FrameLayout>
